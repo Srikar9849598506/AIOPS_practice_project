@@ -1,7 +1,7 @@
 # from src.scraper import scraper
 # url = "https://news.ycombinator.com/"
-def test_add(a,b):
-    result=a+b
+def test_add():
+    result=3+5
     assert result == 8
     
-test_add(3,5)
+test_add()
